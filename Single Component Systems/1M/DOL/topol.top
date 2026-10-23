@@ -1,0 +1,15 @@
+; FF Parameters
+#include "../FFs/forcefield.itp"
+#include "../FFs/DOL.itp"
+#include "../FFs/NAS.itp"
+#include "../FFs/PF6.itp"
+
+[ system ]
+; Name
+DOL_with_ions
+
+[ molecules ]
+; compound   mols
+DOL		1250
+NAS		100
+PF6             100

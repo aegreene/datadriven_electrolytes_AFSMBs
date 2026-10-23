@@ -1,0 +1,17 @@
+#include "../../../FFs/forcefield.itp"
+#include "../../../FFs/DME.itp"
+#include "../../../FFs/DEG.itp"
+#include "../../../FFs/DEE.itp"
+#include "../../../FFs/NAS.itp"
+#include "../../../FFs/PF6.itp"
+
+[ system ]
+system_27
+
+[ molecules ]
+; molecule      number
+DME             448
+DEG             66
+DEE             265
+NAS            100
+PF6           100

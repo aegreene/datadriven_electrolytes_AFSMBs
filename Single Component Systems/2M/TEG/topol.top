@@ -1,0 +1,15 @@
+; FF Parameters
+#include "../FFs/forcefield.itp"
+#include "../FFs/TEG.itp"
+#include "../FFs/NAS.itp"
+#include "../FFs/PF6.itp"
+
+[ system ]
+; Name
+TEG_with_ions
+
+[ molecules ]
+; compound   mols
+TEG		200
+NAS		200
+PF6             200

@@ -1,0 +1,17 @@
+#include "../../../FFs/forcefield.itp"
+#include "../../../FFs/CDR.itp"
+#include "../../../FFs/CDS.itp"
+#include "../../../FFs/THP.itp"
+#include "../../../FFs/NAS.itp"
+#include "../../../FFs/PF6.itp"
+
+[ system ]
+system_138
+
+[ molecules ]
+; molecule      number
+CDR             344
+CDS             344
+THP             95
+NAS            100
+PF6           100

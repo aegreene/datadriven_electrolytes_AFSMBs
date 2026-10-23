@@ -1,0 +1,46 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 DEE     1       1.000   1.000   0.000
+ATOM      2  C01 DEE     1      -0.424   1.000   0.000
+ATOM      3  O02 DEE     1      -0.901   1.000   1.439
+ATOM      4  C03 DEE     1       1.532   0.866  -1.322
+ATOM      5  C04 DEE     1       3.055   0.780  -1.251
+ATOM      6  O05 DEE     1       3.435  -0.480  -0.685
+ATOM      7  C06 DEE     1       4.845  -0.580  -0.516
+ATOM      8  C07 DEE     1       5.147  -1.872   0.216
+ATOM      9  H08 DEE     1      -0.801   0.108  -0.513
+ATOM     10  H09 DEE     1      -0.787   1.895  -0.517
+ATOM     11  H0A DEE     1      -0.550   0.102   1.958
+ATOM     12  H0B DEE     1      -1.993   1.030   1.488
+ATOM     13  H0C DEE     1      -0.494   1.860   1.981
+ATOM     14  H0D DEE     1       1.239   1.744  -1.909
+ATOM     15  H0E DEE     1       1.126  -0.041  -1.785
+ATOM     16  H0F DEE     1       3.447   1.590  -0.626
+ATOM     17  H0G DEE     1       3.476   0.853  -2.259
+ATOM     18  H0H DEE     1       5.217   0.270   0.068
+ATOM     19  H0I DEE     1       5.329  -0.583  -1.499
+ATOM     20  H0J DEE     1       4.673  -1.872   1.204
+ATOM     21  H0K DEE     1       6.225  -2.006   0.343
+ATOM     22  H0M DEE     1       4.741  -2.730  -0.331
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    1    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    2    9 
+CONECT    2   10 
+CONECT    3   11 
+CONECT    3   12 
+CONECT    3   13 
+CONECT    4   14 
+CONECT    4   15 
+CONECT    5   16 
+CONECT    5   17 
+CONECT    7   18 
+CONECT    7   19 
+CONECT    8   20 
+CONECT    8   21 
+CONECT    8   22 
+END

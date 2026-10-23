@@ -1,0 +1,17 @@
+; FF Parameters
+#include "../FFs_copy/forcefield.itp"
+#include "../FFs_copy/MTR.itp"
+#include "../FFs_copy/MTS.itp"
+#include "../FFs_copy/NAS.itp"
+#include "../FFs_copy/PF6.itp"
+
+[ system ]
+; Name
+MTF_with_ions
+
+[ molecules ]
+; compound   mols
+MTR		461
+MTS		461
+NAS		100
+PF6             100

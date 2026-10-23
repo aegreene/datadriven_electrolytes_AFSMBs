@@ -1,0 +1,22 @@
+
+; Include forcefield parameters
+#include "../../cpff/cpforcefield.itp"
+#include "../../cpff/NAS.itp"
+#include "../../cpff/PF6_scale0.8.itp"
+#include "../../cpff/DMEopt.itp"
+#include "../../cpff/DEEopt.itp"
+#include "../../cpff/DEGDMEopt.itp"
+#include "../../cpff/tetrahydrofuran.itp"
+
+[ system ]
+; Name
+DME_DEGDME_THF_DEE_2M_41
+
+[ molecules ]
+; Compound	#mols
+DME	    371
+DEG	    49
+THF	    149
+DEE         202
+PF6	    200
+NAS	    200

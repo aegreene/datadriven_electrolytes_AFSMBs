@@ -1,0 +1,15 @@
+; FF Parameters
+#include "../FFs/forcefield.itp"
+#include "../FFs/THP.itp"
+#include "../FFs/NAS.itp"
+#include "../FFs/PF6.itp"
+
+[ system ]
+; Name
+THP_with_ions
+
+[ molecules ]
+; compound   mols
+THP		879
+NAS		200
+PF6             200

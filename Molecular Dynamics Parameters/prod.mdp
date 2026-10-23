@@ -1,0 +1,41 @@
+; NVT production
+integrator              = md
+dt                      = 0.002 ; 2 fs
+nsteps                  = 25000000 ; 50 ns
+nstxtcout               = 2500 ; output every 2 ps
+nstvout                 = 0
+nstfout                 = 0
+nstcalcenergy           = 100
+nstenergy               = 1000
+nstlog                  = 1000
+;
+cutoff-scheme           = Verlet
+nstlist                 = 20
+vdwtype                 = Cut-off
+;vdw-modifier            = Potential-switch
+;rvdw_switch             = 1.0
+rvdw                    = 1.3
+rlist                   = 1.3
+rcoulomb                = 1.3
+coulombtype             = PME
+DispCorr                = EnerPres
+;
+tcoupl                  = V-rescale
+tc_grps                 = System
+tau_t                   = 1.0
+ref_t                   = 298.15
+;
+pcoupl                  = C-rescale
+pcoupltype              = isotropic
+tau_p                   = 5.0
+compressibility         = 4.5e-5
+ref_p                   = 1.0 ; negative to match INTEREACE
+;
+constraints             = h-bonds
+constraint_algorithm    = LINCS
+continuation            = yes
+;
+nstcomm                 = 100
+comm_mode               = linear
+comm_grps               = System
+;

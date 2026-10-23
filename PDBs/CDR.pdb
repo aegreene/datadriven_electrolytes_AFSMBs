@@ -1,0 +1,40 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 CDR     1       1.000   1.000   0.000
+ATOM      2  O01 CDR     1      -0.421   1.000   0.000
+ATOM      3  C02 CDR     1      -0.945   1.000   1.329
+ATOM      4  C03 CDR     1      -2.480   0.934   1.307
+ATOM      5  C04 CDR     1      -2.959  -0.338   0.606
+ATOM      6  O05 CDR     1      -2.927   0.989   2.669
+ATOM      7  C06 CDR     1      -4.336   1.092   2.811
+ATOM      8  H07 CDR     1       1.344   0.952  -1.037
+ATOM      9  H08 CDR     1       1.384   0.126   0.535
+ATOM     10  H09 CDR     1       1.380   1.921   0.454
+ATOM     11  H0A CDR     1      -0.625   1.912   1.848
+ATOM     12  H0B CDR     1      -0.544   0.145   1.889
+ATOM     13  H0C CDR     1      -2.858   1.808   0.761
+ATOM     14  H0D CDR     1      -2.702  -1.225   1.194
+ATOM     15  H0E CDR     1      -2.526  -0.437  -0.394
+ATOM     16  H0F CDR     1      -4.048  -0.335   0.493
+ATOM     17  H0G CDR     1      -4.554   1.349   3.851
+ATOM     18  H0H CDR     1      -4.812   0.131   2.595
+ATOM     19  H0I CDR     1      -4.742   1.877   2.165
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    4    6 
+CONECT    6    7 
+CONECT    1    8 
+CONECT    1    9 
+CONECT    1   10 
+CONECT    3   11 
+CONECT    3   12 
+CONECT    4   13 
+CONECT    5   14 
+CONECT    5   15 
+CONECT    5   16 
+CONECT    7   17 
+CONECT    7   18 
+CONECT    7   19 
+END

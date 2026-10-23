@@ -1,0 +1,15 @@
+; FF Parameters
+#include "../FFs/forcefield.itp"
+#include "../FFs/DME.itp"
+#include "../FFs/NAS.itp"
+#include "../FFs/PF6.itp"
+
+[ system ]
+; Name
+DME_with_ions
+
+[ molecules ]
+; compound   mols
+DME		897
+NAS		100
+PF6             100

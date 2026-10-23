@@ -1,0 +1,19 @@
+; FF Parameters
+#include "../../../cpff/cpforcefield.itp"
+#include "../../../cpff/NAS.itp"
+#include "../../../cpff/PF6_scale0.8.itp"
+#include "../../../cpff/DMEopt.itp"
+#include "../../../cpff/DEGDMEopt.itp"
+#include "../../../cpff/DEEopt.itp"
+
+[ system ]
+; Name
+DME_DEGDME_DEE_2M_REP2
+
+[ molecules ]
+; compound   mols
+DME		395
+DEG		104
+DEE		215
+PF6		200
+NAS		200

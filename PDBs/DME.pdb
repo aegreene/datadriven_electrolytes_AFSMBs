@@ -1,0 +1,34 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 DME     1       1.000   1.000   0.000
+ATOM      2  O01 DME     1      -0.422   1.000   0.000
+ATOM      3  C02 DME     1       1.520   1.000  -1.329
+ATOM      4  C03 DME     1       3.044   0.998  -1.276
+ATOM      5  O04 DME     1       3.564   0.996  -2.605
+ATOM      6  C05 DME     1       4.985   0.993  -2.605
+ATOM      7  H06 DME     1      -0.765   0.999   1.038
+ATOM      8  H07 DME     1      -0.804   0.102  -0.496
+ATOM      9  H08 DME     1      -0.804   1.899  -0.493
+ATOM     10  H09 DME     1       1.168   1.887  -1.870
+ATOM     11  H0A DME     1       1.166   0.114  -1.871
+ATOM     12  H0B DME     1       3.395   0.112  -0.734
+ATOM     13  H0C DME     1       3.397   1.884  -0.735
+ATOM     14  H0D DME     1       5.329   0.991  -3.643
+ATOM     15  H0E DME     1       5.365   0.095  -2.109
+ATOM     16  H0F DME     1       5.370   1.891  -2.112
+TER 
+CONECT    1    2 
+CONECT    1    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    2    7 
+CONECT    2    8 
+CONECT    2    9 
+CONECT    3   10 
+CONECT    3   11 
+CONECT    4   12 
+CONECT    4   13 
+CONECT    6   14 
+CONECT    6   15 
+CONECT    6   16 
+END

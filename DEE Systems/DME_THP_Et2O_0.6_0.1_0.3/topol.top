@@ -1,0 +1,17 @@
+#include "../../../FFs/forcefield.itp"
+#include "../../../FFs/DME.itp"
+#include "../../../FFs/THP.itp"
+#include "../../../FFs/ETO.itp"
+#include "../../../FFs/NAS.itp"
+#include "../../../FFs/PF6.itp"
+
+[ system ]
+system_39
+
+[ molecules ]
+; molecule      number
+DME             538
+THP             95
+ETO             269
+NAS            100
+PF6           100

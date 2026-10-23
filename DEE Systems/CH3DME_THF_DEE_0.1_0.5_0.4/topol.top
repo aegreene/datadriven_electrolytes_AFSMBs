@@ -1,0 +1,19 @@
+#include "../../../FFs/forcefield.itp"
+#include "../../../FFs/DEE.itp"
+#include "../../../FFs/THF.itp"
+#include "../../../FFs/CDR.itp"
+#include "../../../FFs/CDS.itp"
+#include "../../../FFs/NAS.itp"
+#include "../../../FFs/PF6.itp"
+
+[ system ]
+system_11
+
+[ molecules ]
+; molecule      number
+DEE             265
+THF             570
+CDR             38
+CDS             38
+NAS            100
+PF6           100

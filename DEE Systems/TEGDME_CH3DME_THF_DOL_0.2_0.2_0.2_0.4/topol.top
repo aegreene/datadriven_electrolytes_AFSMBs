@@ -1,0 +1,21 @@
+#include "../../../FFs/forcefield.itp"
+#include "../../../FFs/THF.itp"
+#include "../../../FFs/TEG.itp"
+#include "../../../FFs/CDR.itp"
+#include "../../../FFs/CDS.itp"
+#include "../../../FFs/DOL.itp"
+#include "../../../FFs/NAS.itp"
+#include "../../../FFs/PF6.itp"
+
+[ system ]
+system_1
+
+[ molecules ]
+; molecule      number
+THF             228
+TEG             85
+CDR             76
+CDS             76
+DOL             533
+NAS            100
+PF6           100

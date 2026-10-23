@@ -1,0 +1,17 @@
+; FF Parameters
+#include "../FFs/forcefield.itp"
+#include "../FFs/CDR.itp"
+#include "../FFs/CDS.itp"
+#include "../FFs/NAS.itp"
+#include "../FFs/PF6.itp"
+
+[ system ]
+; Name
+CDM_with_ions
+
+[ molecules ]
+; compound   mols
+CDR		382
+CDS		382
+NAS		100
+PF6             100

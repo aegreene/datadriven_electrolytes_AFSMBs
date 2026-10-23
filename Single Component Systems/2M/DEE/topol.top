@@ -1,0 +1,15 @@
+; FF Parameters
+#include "../FFs/forcefield.itp"
+#include "../FFs/NAS.itp"
+#include "../FFs/PF6.itp"
+#include "../FFs/DEE.itp"
+
+[ system ]
+; Name
+DEE_with_ions
+
+[ molecules ]
+; compound   mols
+DEE		612
+NAS		200
+PF6		200

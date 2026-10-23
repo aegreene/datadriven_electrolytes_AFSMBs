@@ -1,0 +1,14 @@
+;; Topology file for sodium ion with 0.8 charge (i.e., charge scaled sodium)
+;; Generally manually for compatibility with OPLS-AA force field
+;; Scaling of 0.8 is for compatibility with charged scale PF6- anions. 
+;;
+;; Reid Van Lehn - vanlehn@wisc.edu
+
+
+[ moleculetype ]
+; name	nrexcl
+NAA	     1
+
+[ atoms ]
+; nr	type	resnr	residu	atom	cgnr	charge	mass
+     1    opls_405      1      NAA    Na+      1     0.800000    39.0983   ; qtot  0.800
