@@ -1,0 +1,134 @@
+This repository contains molecular dynamics initial and final configurations, force fields, parameters, and PDB files for the simulations performed in the paper Data-Driven Electrolyte Design for Initially Anode-Free Sodium Metal Batteries. The simulation final configurations and data from which the following figures were produced is contained in the directories: \
+\
+Main text:
+- Figure 4.c:
+	- 'LEs-THF System'/replicate_1/initial_configuration.gro
+- Figure 4.d: 
+	- 'LEs-THF System'/replicate_1/prod/prod.gro
+ 	- 'LEs-THF System'/replicate_1/analysis/cdf_LEs-THF_Na.csv
+  	- 'LEs System'/replicate_1/prod/prod.gro
+	- 'LEs System'/replicate_1/analysis/cdf_LEs_Na.csv
+- Figure 4.e: 
+	- 'LEs-THF System'/replicate_1/prod/prod.gro
+ 	- 'LEs-THF System'/replicate_1/analysis/cdf_LEs-THF_Na.csv
+	- 'LEs-THF System'/replicate_2/analysis/cdf_LEs-THF_Na.csv
+ 	- 'LEs System'/replicate_1/prod/prod.gro
+	- 'LEs System'/replicate_1/analysis/cdf_LEs_Na.csv
+	- 'LEs System'/replicate_2/analysis/cdf_LEs_Na.csv
+- Figure 4.f: 
+	- 'LEs-THF System'/replicate_1/prod/prod.gro
+ 	- 'LEs-THF System'/replicate_2/prod/prod.gro
+	- 'LEs-THF System'/replicate_1/analysis/cdf_LEs-THF_P.csv
+	- 'LEs-THF System'/replicate_2/analysis/cdf_LEs-THF_P.csv
+ 	- 'LEs System'/replicate_1/prod/prod.gro
+  	- 'LEs System'/replicate_2/prod/prod.gro
+	- 'LEs System'/replicate_1/analysis/cdf_LEs_P.csv
+	- 'LEs System'/replicate_2/analysis/cdf_LEs_P.csv
+
+
+
+Supplementary Information:
+- Figure S8:
+	- 'LEs System'/replicate_1/initial_configuration.gro
+	- 'LEs-THF System'/replicate_1/initial_configuration.gro
+- Figure S9:
+	- 'LEs System'/replicate_1/prod/prod.gro
+	- 'LEs System'/replicate_1/analysis/rdf_LEs_Na.csv
+	- 'LEs-THF System'/replicate_1/prod/prod.gro
+  	- 'LEs-THF System'/replicate_1/analysis/rdf_LEs-THF_Na.csv
+- Figure S10:
+  	- 'LEs System'/replicate_1/prod/prod.gro
+  	- 'LEs System'/replicate_1/analysis/cdf_LEs_Na.csv
+  	- 'LEs-THF System'/replicate_1/prod/prod.gro
+  	- 'LEs-THF System'/replicate_1/analysis/cdf_LEs-THF_Na.csv
+- Figure S11:
+  	- 'LEs System'/replicate_1/prod/prod.gro
+  	- 'LEs System'/replicate_1/analysis/rdf_LEs_P.csv
+  	- 'LEs-THF System'/replicate_1/prod/prod.gro
+  	- 'LEs-THF System'/replicate_1/analysis/rdf_LEs-THF_P.csv
+- Figure S12:
+  	- 'LEs System'/replicate_1/prod/prod.gro
+  	- 'LEs System'/replicate_1/analysis/cdf_LEs_P.csv
+  	- 'LEs-THF System'/replicate_1/prod/prod.gro
+  	- 'LEs-THF System'/replicate_1/analysis/cdf_LEs-THF_P.csv
+- Figure S13:
+  	- 'LEs System'/replicate_1/prod/prod.gro
+  	- 'LEs-THF System'/replicate_1/prod/prod.gro
+  	- 'LEs System'/replicate_1/analysis/rdf_LEs_P.csv
+  	- 'LEs-THF System'/replicate_1/analysis/rdf_LEs-THF_P.csv
+  	- 'LEs System'/replicate_1/analysis/cdf_LEs_P.csv
+  	- 'LEs-THF System'/replicate_1/analysis/cdf_LEs-THF_P.csv
+- Figure S14:
+  	- 'Single Component Systems'/1M/DME/prod/prod.gro
+  	- 'Single Component Systems'/1M/DME/prod2/prod.gro
+  	- 'Single Component Systems'/1M/DEG/prod/prod.gro
+  	- 'Single Component Systems'/1M/DEG/prod2/prod.gro
+  	- 'Single Component Systems'/1M/TEG/prod/prod.gro
+  	- 'Single Component Systems'/1M/TEG/prod2/prod.gro
+  	- 'Single Component Systems'/1M/CDM/prod/prod.gro
+  	- 'Single Component Systems'/1M/CDM/prod2/prod.gro
+  	- 'Single Component Systems'/1M/THF/prod/prod.gro
+  	- 'Single Component Systems'/1M/THF/prod2/prod.gro
+  	- 'Single Component Systems'/1M/ETO/prod/prod.gro
+  	- 'Single Component Systems'/1M/ETO/prod2/prod.gro
+  	- 'Single Component Systems'/1M/DEE/prod/prod.gro
+  	- 'Single Component Systems'/1M/DEE/prod2/prod.gro
+  	- 'Single Component Systems'/1M/THP/prod/prod.gro
+  	- 'Single Component Systems'/1M/THP/prod2/prod.gro
+  	- 'Single Component Systems'/1M/DOL/prod/prod.gro
+  	- 'Single Component Systems'/1M/DOL/prod2/prod.gro
+  	- 'Single Component Systems'/1M/MTF/prod/prod.gro
+  	- 'Single Component Systems'/1M/MTF/prod2/prod.gro
+- Figure S15:
+  	- 'Single Component Systems'/2M/DME/prod/prod.gro
+  	- 'Single Component Systems'/2M/DME/prod2/prod.gro
+  	- ...
+  	- 'Single Component Systems'/2M/[Component]/prod/prod.gro
+  	- 'Single Component Systems'/2M/[Component]/prod2/prod.gro
+- Figure S16:
+	- 'DEE Systems'/DEGDME_THF_DEE_0.1_0.5_0.4/prod/prod.gro
+	- 'DEE Systems'/DME_DEGDME_THF_DEE_DOL_0.2_0.3_0.1_0.1_0.3/prod/prod.gro
+	- 'DEE Systems'/DME_TEGDME_DEE_0.5_0.4_0.1/prod/prod.gro
+	- 'DEE Systems'/DME_DEGDME_DEE_0.5_0.1_0.4/prod/prod.gro
+	- 'DEE Systems'/CH3DME_THF_DEE_0.1_0.5_0.4/prod/prod.gro
+	- 'DEE Systems'/DME_THP_Et2O_0.6_0.1_0.3/prod/prod.gro
+	- 'DEE Systems'/DME_DEGDME_THF_DOL_0.2_0.3_0.1_0.4/prod/prod.gro
+	- 'DEE Systems'/TEGDME_CH3DME_THF_DOL_0.2_0.2_0.2_0.4/prod/prod.gro
+	- 'DEE Systems'/DME_DEGDME_THF_0.6_0.3_0.1/prod/prod.gro
+	- 'DEE Systems'/CH3DME_THP_0.9_0.1/prod/prod.gro
+ - Figure S24:
+ 	- 'LEs-THF System'/replicate_1/prod/prod.gro
+	- 'LEs-THF System'/replicate_2/prod/prod.gro
+	- 'LEs-THF System'/replicate_1/analysis/cdf_LEs-THF_Na.csv
+ 	- 'LEs System'/replicate_1/prod/prod.gro
+	- 'LEs System'/replicate_2/prod/prod.gro
+ 	- 'LEs System'/replicate_1/analysis/cdf_LEs_Na.csv
+  - Table S5
+ 	- 'LEs-THF System'/replicate_1/prod/prod.gro
+	- 'LEs-THF System'/replicate_2/prod/prod.gro
+ 	- 'LEs System'/replicate_1/prod/prod.gro
+	- 'LEs System'/replicate_2/prod/prod.gro
+  - Table S8
+	- 'LEs-THF System'/replicate_1/initial_configuration.gro
+	- 'LEs-THF System'/replicate_2/initial_configuration.gro
+  	- 'LEs-THF System'/replicate_1/topol.top
+   	- 'LEs-THF System'/replicate_2/topol.top
+ 	- 'LEs System'/replicate_1/initial_configuration.gro
+	- 'LEs System'/replicate_2/initial_configuration.gro
+  	- 'LEs System'/replicate_1/topol.top
+   	- 'LEs System'/replicate_2/topol.top
+  - Table S9
+  	- 'Single Component Systems'/1M(2M)/DME/topol.top
+  	- 'Single Component Systems'/1M(2M)/DME/initial_configuration.gro
+  	- 'Single Component Systems'/1M(2M)/DME/initial_configuration2.gro
+  	- ...
+  	- 'Single Component Systems'/1M(2M)/[Component]/topol.top
+  	- 'Single Component Systems'/1M(2M)/[Component]/initial_configuration.gro
+  	- 'Single Component Systems'/1M(2M)/[Component]/initial_configuration2.gro
+  - Table S10
+	- 'DEE Systems'/[System Composition]/initial_configuration.gro
+	- 'DEE Systems'/[System Composition]/topol.top
+  - Table S11
+	- 'Force Fields'/ffnonbonded.itp
+
+  
