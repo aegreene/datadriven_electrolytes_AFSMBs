@@ -1,9 +1,9 @@
-#include "../../../FFs/forcefield.itp"
-#include "../../../FFs/DME.itp"
-#include "../../../FFs/THP.itp"
-#include "../../../FFs/ETO.itp"
-#include "../../../FFs/NAS.itp"
-#include "../../../FFs/PF6.itp"
+#include "../../Force Fields/forcefield.itp"
+#include "../../Force Fields/DME.itp"
+#include "../../Force Fields/THP.itp"
+#include "../../Force Fields/ETO.itp"
+#include "../../Force Fields/NAS.itp"
+#include "../../Force Fields/PF6.itp"
 
 [ system ]
 system_39

@@ -1,8 +1,8 @@
 ; FF Parameters
-#include "../FFs/forcefield.itp"
-#include "../FFs/NAS.itp"
-#include "../FFs/PF6.itp"
-#include "../FFs/DEG.itp"
+#include "../../../Force Fields/forcefield.itp"
+#include "../../../Force Fields/NAS.itp"
+#include "../../../Force Fields/PF6.itp"
+#include "../../../Force Fields/DEG.itp"
 
 [ system ]
 ; Name

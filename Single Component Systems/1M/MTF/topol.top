@@ -1,9 +1,9 @@
 ; FF Parameters
-#include "../FFs_copy/forcefield.itp"
-#include "../FFs_copy/MTR.itp"
-#include "../FFs_copy/MTS.itp"
-#include "../FFs_copy/NAS.itp"
-#include "../FFs_copy/PF6.itp"
+#include "../../../Force Fields/forcefield.itp"
+#include "../../../Force Fields/MTR.itp"
+#include "../../../Force Fields/MTS.itp"
+#include "../../../Force Fields/NAS.itp"
+#include "../../../Force Fields/PF6.itp"
 
 [ system ]
 ; Name

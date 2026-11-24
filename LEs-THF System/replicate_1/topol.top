@@ -1,12 +1,12 @@
 
 ; Include forcefield parameters
-#include "../../cpff/cpforcefield.itp"
-#include "../../cpff/NAS.itp"
-#include "../../cpff/PF6_scale0.8.itp"
-#include "../../cpff/DMEopt.itp"
-#include "../../cpff/DEEopt.itp"
-#include "../../cpff/DEGDMEopt.itp"
-#include "../../cpff/tetrahydrofuran.itp"
+#include "../../Force Fields/forcefield.itp"
+#include "../../Force Fields/NAS.itp"
+#include "../../Force Fields/PF6.itp"
+#include "../../Force Fields/DME.itp"
+#include "../../Force Fields/DEE.itp"
+#include "../../Force Fields/DEG.itp"
+#include "../../Force Fields/THF.itp"
 
 [ system ]
 ; Name

@@ -1,10 +1,10 @@
-#include "../../../FFs/forcefield.itp"
-#include "../../../FFs/DME.itp"
-#include "../../../FFs/DEG.itp"
-#include "../../../FFs/THF.itp"
-#include "../../../FFs/DOL.itp"
-#include "../../../FFs/NAS.itp"
-#include "../../../FFs/PF6.itp"
+#include "../../Force Fields/forcefield.itp"
+#include "../../Force Fields/DME.itp"
+#include "../../Force Fields/DEG.itp"
+#include "../../Force Fields/THF.itp"
+#include "../../Force Fields/DOL.itp"
+#include "../../Force Fields/NAS.itp"
+#include "../../Force Fields/PF6.itp"
 
 [ system ]
 system_2
